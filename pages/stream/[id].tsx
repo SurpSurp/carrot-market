@@ -3,22 +3,36 @@ import { NextPage } from "next";
 const StreamDetail: NextPage = () => {
   return (
     <div className="py-10">
-      <div className="pt-4">
-        <div className="w-full aspect-video rounded-md bg-slate-300" />
-        <h3 className="px-3 text-xl font-medium text-gray-700 mt-1.5">
-          Let&apos;s try potatoes
-        </h3>
+      <div className="w-full aspect-video bg-slate-300 " />
+      <div className="pt-8">
+        <div className=" px-3">
+          <h1 className="text-2xl font-semibold text-gray-800">Galaxy S50</h1>
+          <p className="text-xl font-medium block mt-1 text-orange-400">$140</p>
+          <p className="my-3 text-sm text-gray-800">
+            My money&apos;s in that office, right? If she start giving me some
+            bullshit about it ain&apos;t there, and we got to go someplace else
+            and get it, I&apos;m gonna shoot you in the head then and there.
+            Then I&apos;m gonna shoot that bitch in the kneecaps, find out where
+            my goddamn money is. She gonna tell me too. Hey, look at me when
+            I&apos;m talking to you, motherfucker. You listen: we go in there,
+            and that ni**a Winston or anybody else is in there, you the first
+            motherfucker to get shot. You understand?
+          </p>
+        </div>
         <div className="relative mt-12">
           <div className="absolute w-full border-t border-gray-400" />
           <div className=" relative -top-3  flex justify-center">
-            <span className="px-3 bg-white flex items-center">
+            <span className="px-3 bg-white flex items-center font-medium text-gray-600">
               Live chats
-              <div className=" w-3 h-3 rounded-full bg-red-500 ml-2" />
+              <span className="flex h-3 w-3 relative ml-1.5">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-300 opacity-70"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-orange-400"></span>
+              </span>
             </span>
           </div>
         </div>
       </div>
-      <div className="space-y-5 px-4 pb-4 pt-2 h-[57vh] overflow-x-scroll">
+      <div className="space-y-5 px-4 pb-10 pt-2 h-[30vh] overflow-x-scroll my-auto">
         <div className="w-full flex items-center space-x-3">
           <div className="w-11 h-11 rounded-full bg-slate-300" />
           <div className="w-1/2 border border-gray-400 rounded-md p-2 text-sm">

@@ -16,8 +16,10 @@ const ItemDetail: NextPage = () => {
         </div>
         <div className="py-7 border-y">
           <h1 className="text-2xl font-semibold text-gray-800">Galaxy S50</h1>
-          <p className="text-xl font-semibold block mt-1 text-gray-800">$140</p>
-          <p className="my-3 text-base text-gray-800">
+          <p className="text-xl font-semibold block mt-1 text-orange-400">
+            $140
+          </p>
+          <p className="my-3 text-sm text-gray-800">
             My money&apos;s in that office, right? If she start giving me some
             bullshit about it ain&apos;t there, and we got to go someplace else
             and get it, I&apos;m gonna shoot you in the head then and there.
