@@ -1,10 +1,10 @@
 import { NextPage } from "next";
 
-const Live: NextPage = () => {
+const Stream: NextPage = () => {
   return (
     <div className="py-10 divide-y-2">
       {[1, 2, 3, 4, 5, 6].map((_, i) => (
-        <div key={i} className="px-3 py-4">
+        <div key={i} className="px-4 py-4">
           <div className="w-full aspect-video rounded-md bg-slate-300" />
           <h3 className="text-lg text-gray-700 mt-1.5">
             Let&apos;s try potatoes
@@ -31,4 +31,4 @@ const Live: NextPage = () => {
   );
 };
 
-export default Live;
+export default Stream;
