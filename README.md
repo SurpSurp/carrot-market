@@ -21,4 +21,4 @@ sold.tsx ✅
 -stream
 id.tsx ✅
 create.tsx ✅
-index.tsx
+index.tsx ✅

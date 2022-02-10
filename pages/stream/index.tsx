@@ -4,7 +4,7 @@ import Layout from "../../components/layout";
 const Stream: NextPage = () => {
   return (
     <Layout isIndex={true} title="라이브">
-      <div className="py-10 divide-y-2">
+      <div className="py-6 divide-y-2">
         {[1, 2, 3, 4, 5, 6].map((_, i) => (
           <div key={i} className="px-4 py-4">
             <div className="w-full aspect-video rounded-md bg-slate-300" />

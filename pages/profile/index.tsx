@@ -4,7 +4,7 @@ import Layout from "../../components/layout";
 const Profile: NextPage = () => {
   return (
     <Layout isIndex={true} title="나의 캐럿">
-      <div className="py-10 px-4">
+      <div className="py-6 px-4">
         <div className="flex items-center space-x-3">
           <div className="w-14 h-14 rounded-full bg-slate-400" />
           <div className="flex flex-col">
